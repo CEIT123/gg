@@ -17,7 +17,7 @@ public class FirstCase {
 		driver.get("file:///Users/apple/Desktop/new/new.html");
 		
 		//driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]"));
-		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("cup");
+		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone");
 		driver.findElement(By.id("nav-search-submit-button")).click();
 		
 		driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]"));
