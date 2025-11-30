@@ -13,8 +13,8 @@ public class FirstCase {
 		driver = new ChromeDriver();*/
 		
 		WebDriver driver = new ChromeDriver();
-		//driver.get("https://www.amazon.in");
-		driver.get("file:///Users/apple/Desktop/new/new.html");
+		driver.get("https://www.amazon.in");
+		//driver.get("file:///Users/apple/Desktop/new/new.html");
 		
 		//driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]"));
 		driver.findElement(By.id("twotabsearchtextbox")).sendKeys("iphone");
